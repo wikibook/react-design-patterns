@@ -1,0 +1,63 @@
+.root {
+  display: flex;
+  gap: 1.2rem;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+.label {
+  font-size: 1.4rem;
+  color: #000;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.8rem 1.5rem;
+  border: 0.1rem solid var(--gray3);
+  width: 100%;
+  background: var(--white);
+  border-radius: 0.8rem;
+}
+
+.input:focus-within {
+  border: 0.1rem solid var(--primary);
+}
+
+.container {
+  flex: 1;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+.container:focus {
+  outline: none;
+}
+
+.eyes {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.eyesOff {
+  background-image: url('../4/IconSVG/eye-slash.svg');
+}
+.eyesOn {
+  background-image: url('../4/IconSVG/eye.svg');
+}
+
+.errorBorder {
+  border: 0.1rem solid var(--error);
+}
+
+.errorMessage {
+  font-size: 1.4rem;
+  color: var(--error);
+}
