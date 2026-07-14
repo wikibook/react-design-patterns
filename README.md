@@ -7,7 +7,7 @@
 - **정진호** 지음
 - ISBN: 9791158396930
 - 전자책 28,800원 | 2026년 7월 15일 발행 | 625쪽
-- [위키북스 홈페이지](https://wikibook.co.kr/)
+- [위키북스 홈페이지](https://wikibook.co.kr/react-design-patterns/)
 - [도서 관련 문의](https://wikibook.co.kr/support/contact/)
 
 ---
